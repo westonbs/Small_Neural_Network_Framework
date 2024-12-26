@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b176a78-beac-4633-8e5d-4db1e547f103" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PythonProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Activations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NeuralNetwork.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Neuron.py" afterDir="false" />
+    <list default="true" id="2b176a78-beac-4633-8e5d-4db1e547f103" name="Changes" comment="Untested and incomplete neural network framework">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,11 +61,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1734998689169</updated>
-      <workItem from="1734998690178" duration="21418000" />
+      <workItem from="1734998690178" duration="22481000" />
     </task>
+    <task id="LOCAL-00001" summary="Untested and incomplete neural network framework">
+      <option name="closed" value="true" />
+      <created>1735176558730</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735176558730</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Untested and incomplete neural network framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Untested and incomplete neural network framework" />
   </component>
 </project>

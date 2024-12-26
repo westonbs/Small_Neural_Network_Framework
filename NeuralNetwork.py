@@ -2,6 +2,19 @@ import numpy as np
 from tqdm import tqdm
 
 class NeuralNetwork:
+    """"
+    Class representing a neural network with multiple dense layers
+
+    Attributes:
+        layers (list): list of layers in the network
+        batch_size (int): size of the batch used for training
+        layers_weights (list): list of weights of each layer
+        layers_bias (list): list of bias of each layer
+
+    Methods:
+        predict(inputs): predicts output of the network for given input
+        train(inputs, targets, epochs, learning_rate): trains the network for given number of epochs
+    """
     def __init__(self, layers, batch_size):
         self.layers = layers
         self.batch_size = batch_size

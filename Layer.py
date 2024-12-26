@@ -1,9 +1,23 @@
 import numpy as np
-
 import Activations
 from Neuron import Neuron
 
 class Layer:
+    """
+    Class representing a single layer in a neural network, handles forward and backward propagation
+
+    Attributes:
+        input_shape (tuple or int): Shape of input data
+        output_shape (tuple or int): Shape of output data
+        activation_function (callable): Activation function applied to layer outputs.
+        derivation_function (callable): Derivative of the activation function
+        weights (np.ndarray): Weight matrix for neurons of layer, size: input x output
+        bias (np.ndarray): Bias vector for neurons of layer, size: 1 x output
+
+    Methods:
+        forward(X, cache): forward propagation
+        backward(X, cache, delta, next_layer): backward propagation
+    """
     def __init__(self, input_shape, output_shape, activation, index):
         self.input_shape = input_shape
         self.output_shape = output_shape

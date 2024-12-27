@@ -5,7 +5,7 @@ class Neuron:
     Class representing a simple neuron
 
     Attributes:
-        activation_function (callable): activation function of neuron, ietf. sigmoid, relu
+        activation_function (callable): activation function of neuron, sigmoid, relu
         weight (numpy.ndarray or None): weights of the neuron, initialized as random nparray
         bias (float or None): bias of neuron, initialized as random float
 

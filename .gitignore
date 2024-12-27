@@ -1,4 +1,5 @@
-.idea/
+origin  https://github.com/westonbs/Small_Neural_Network_Framework (fetch)
+
 data/
 *.csv
 *.h5

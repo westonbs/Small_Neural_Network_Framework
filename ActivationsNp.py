@@ -15,21 +15,24 @@ def softmax(z):
 def d_relu(z, dJ_da):
     return np.where(z > 0, 1, 0) * dJ_da
 
+def d_test(a, y):
+    m = a.shape[0]
+
+    y_true_indices = np.zeros(a.shape)
+    y_true_indices[np.arange(m), y.flatten().astype(int)] = 1
+
 def d_softmax(a, y):
     m = a.shape[0]
 
     y_true_indices = np.zeros(a.shape)
-    y_true_indices[np.arange(m), y.flatten()] = 1
-
+    y_true_indices[np.arange(m), y.flatten().astype(int)] = 1
     return (a - y_true_indices) / m
 
-#todo: learn advanced indexing to finish this
 def dJ_softmax(a, y):
     m = a.shape[0]
     y_temp = y.flatten()
-
     y_true = np.zeros(a.shape)
-    y_true[np.arange(m), y_temp] = 1
+    y_true[np.arange(m), y_temp.astype(int)] = 1
 
     return -y_true / (a * m)
 
